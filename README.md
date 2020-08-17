@@ -2,7 +2,7 @@
 > read README.md file
 ## For Loop
 The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. Iterating over a sequence is called traversal.
-
+### Syntax
 ```shell
 curl https://raw.githubusercontent.com/jehna/readme-best-practices/master/README-default.md > README.md
 ```
