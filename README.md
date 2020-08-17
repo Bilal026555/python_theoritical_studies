@@ -8,7 +8,7 @@ for val in sequence:
 	Body of for
 ```
 Here, `val` is the variable that takes the value of the item inside the sequence on each iteration.Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation.
-## Example: Python for Loop
+### Example: Python for Loop
 ```shell 
 # Program to find the sum of all numbers stored in a list
 
@@ -24,7 +24,38 @@ for val in numbers:
 
 print("The sum is", sum)
 ```
+When you run the program, the output will be:
+```shell
+The sum is 48
+```
+### The range() function
+We can generate a sequence of numbers using `range()` function. range(10) will generate numbers from 0 to 9 (10 numbers).
 
+We can also define the start, stop and step size as `range(start, stop,step_size)`. step_size defaults to 1 if not provided.
+
+The range object is `"lazy"` in a sense because it doesn't generate every number that it "contains" when we create it. However, it is not an iterator since it supports `in`, `len` and `__getitem__` operations.
+
+This function does not store all the values in memory; it would be inefficient. So it remembers the start, stop, step size and generates the next number on the go.
+
+To force this function to output all the items, we can use the function `list().`
+```shell
+print(range(10))
+
+print(list(range(10)))
+
+print(list(range(2, 8)))
+
+print(list(range(2, 20, 3)))
+```
+### Output
+```shell
+range(0, 10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[2, 3, 4, 5, 6, 7]
+[2, 5, 8, 11, 14, 17]
+```
+
+The following example will clarify this.
 ## Features
 
 This project makes it easy to:
@@ -37,16 +68,6 @@ This project makes it easy to:
 As I use this for my own projects, I know this might not be the perfect approach
 for all the projects out there. If you have any ideas, just
 [open an issue][issues] and tell me what you think.
-
-If you'd like to contribute, please fork the repository and make changes as
-you'd like. Pull requests are warmly welcome.
-
-If your vision of a perfect `README.md` differs greatly from mine, it might be
-because your projects are for vastly different. In this case, you can create a
-new file `README-yourplatform.md` and create the perfect boilerplate for that.
-
-E.g. if you have a perfect `README.md` for a Grunt project, just name it as
-`README-grunt.md`.
 
 ## Related projects
 
