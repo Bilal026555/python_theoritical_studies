@@ -3,27 +3,11 @@
 ## For Loop
 The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. Iterating over a sequence is called traversal.
 ### Syntax
-```shell
-curl https://raw.githubusercontent.com/jehna/readme-best-practices/master/README-default.md > README.md
-```
-
-The code above fetches the `README-default.md` file from this repository and
-renames it to `README.md`.
-
-## Fill with your own text
-
-The default template has some guiding text to get you started. However you'll
-need to edit the file with your own text to use it with your project.
 
 ```shell
-atom README.md
+for val in sequence:
+	Body of for
 ```
-
-If you're using [Atom](https://atom.io/) code editor, the code above opens the
-file for editing. If necessary, substitute with your preferred markdown editor.
-
-### Add to git and push
-
 After you've filled your `README.md` file with your own project's text, you
 should push it to your GitHub project:
 
