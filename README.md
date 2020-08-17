@@ -7,6 +7,7 @@ The for loop in Python is used to iterate over a sequence (list, tuple, string) 
 ```shell
 for val in sequence:
 	Body of for
+```
 
 Here, `val` is the variable that takes the value of the item inside the sequence on each iteration.
 
