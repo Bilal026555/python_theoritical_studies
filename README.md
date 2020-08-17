@@ -7,15 +7,10 @@ The for loop in Python is used to iterate over a sequence (list, tuple, string) 
 ```shell
 for val in sequence:
 	Body of for
-```
-After you've filled your `README.md` file with your own project's text, you
-should push it to your GitHub project:
 
-```shell
-git add README.md
-git commit -m "Added: README"
-git push
-```
+Here, `val` is the variable that takes the value of the item inside the sequence on each iteration.
+
+Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation.
 
 This adds the `README.md` file to your git repository, creates a commit for it
 and pushes it to GitHub (or other preferred remote repository).
