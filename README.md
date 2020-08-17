@@ -1,14 +1,7 @@
-# python_theoritical_studies
-> A place to copy-paste your README.md from
-
-One of the most crucial things in your open source project is the `README.md`
-file. This repository has a ready-to-copy-paste template you can use for all
-your projects.
-
-## Getting started
-
-Copy the `README-default.md` file for yourself and start editing! At the root of
-your project, run:
+# Introduction to Programming with Python
+> read README.md file
+## For Loop
+The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. Iterating over a sequence is called traversal.
 
 ```shell
 curl https://raw.githubusercontent.com/jehna/readme-best-practices/master/README-default.md > README.md
