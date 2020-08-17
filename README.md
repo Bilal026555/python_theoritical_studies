@@ -8,13 +8,24 @@ The for loop in Python is used to iterate over a sequence (list, tuple, string) 
 for val in sequence:
 	Body of for
 ```
+Here, `val` is the variable that takes the value of the item inside the sequence on each iteration.Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation.
 
-Here, `val` is the variable that takes the value of the item inside the sequence on each iteration.
+##Example: Python for Loop
+```shell 
+# Program to find the sum of all numbers stored in a list
 
-Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation.
+# List of numbers
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 
-This adds the `README.md` file to your git repository, creates a commit for it
-and pushes it to GitHub (or other preferred remote repository).
+# variable to store the sum
+sum = 0
+
+# iterate over the list
+for val in numbers:
+	sum = sum+val
+
+print("The sum is", sum)
+```
 
 ## Features
 
