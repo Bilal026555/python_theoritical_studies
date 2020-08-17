@@ -63,7 +63,7 @@ n=int(user_input)
 for i in range(0,n+1):
     print(10**i)
 ```
-### Outputfor n=8
+### Output for n=8
 ```shell
 1
 10
@@ -75,7 +75,22 @@ for i in range(0,n+1):
 10000000
 100000000
 ```
+We can use the `range()` function in for loops to iterate through a sequence of numbers. It can be combined with the `len()` function to iterate through a sequence using indexing. Here is an example.
+```shell
+# Program to iterate through a list using indexing
 
+genre = ['pop', 'rock', 'jazz']
+
+# iterate over the list using index
+for i in range(len(genre)):
+	print("I like", genre[i])
+```
+### Output 
+```shell
+I like pop
+I like rock
+I like jazz
+```
 ## Features
 
 This project makes it easy to:
