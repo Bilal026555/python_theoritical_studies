@@ -1,5 +1,4 @@
 # python_theoritical_studies
-# Readme Best Practices
 > A place to copy-paste your README.md from
 
 One of the most crucial things in your open source project is the `README.md`
