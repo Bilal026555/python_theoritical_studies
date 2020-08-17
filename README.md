@@ -54,8 +54,28 @@ range(0, 10)
 [2, 3, 4, 5, 6, 7]
 [2, 5, 8, 11, 14, 17]
 ```
+### Practice problem
+Write a program that asks the user for an input 'n' (assume that the user enters a positive integer) and prints a sequence of powers of 10 from 10^0 to 10^n in separate lines. For example if 'n' is equal to 4 then the output should look like the following: 
+```shell
+# Type your code here
+user_input=input("Please enter a positive interger")
+n=int(user_input)
+for i in range(0,n+1):
+    print(10**i)
+```
+### Outputfor n=8
+```shell
+1
+10
+100
+1000
+10000
+100000
+1000000
+10000000
+100000000
+```
 
-The following example will clarify this.
 ## Features
 
 This project makes it easy to:
