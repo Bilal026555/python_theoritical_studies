@@ -91,6 +91,14 @@ I like pop
 I like rock
 I like jazz
 ```
+### for loop with else
+A `for` loop can have an optional else block as well. The else part is executed if the items in the sequence used in for loop exhausts.
+
+The `break` keyword can be used to stop a for loop. In such cases, the else part is ignored.
+
+Hence, a for loop's else part runs if no break occurs.
+
+Here is an example to illustrate this.
 ## Features
 
 This project makes it easy to:
