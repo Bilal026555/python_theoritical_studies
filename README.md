@@ -3,14 +3,12 @@
 ## For Loop
 The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. Iterating over a sequence is called traversal.
 ### Syntax
-
 ```shell
 for val in sequence:
 	Body of for
 ```
 Here, `val` is the variable that takes the value of the item inside the sequence on each iteration.Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation.
-
-##Example: Python for Loop
+## Example: Python for Loop
 ```shell 
 # Program to find the sum of all numbers stored in a list
 
