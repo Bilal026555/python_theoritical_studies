@@ -99,32 +99,10 @@ The `break` keyword can be used to stop a for loop. In such cases, the else part
 Hence, a for loop's else part runs if no break occurs.
 ## Break and Continue statement in Python
 [Break and Continue statement:](https://www.programiz.com/python-programming/break-continue)
+## What are modules in Python?
+Modules refer to a file containing Python statements and definitions. A file containing Python code, for example: `example.py`, is called a module, and its module name would be `example`.
+We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.We can define our most used functions in a module and import it, instead of copying their definitions into different programs.
+## How to import modules in Python?
+[Importing modules in python:](https://www.programiz.com/python-programming/modules)
 
-This project makes it easy to:
-* Bootstrap your open source project properly
-* Make sure everyone gets what you're trying to achieve with your project
-* Follow simple instructions for a perfect `README.md`
-
-## Contributing
-
-As I use this for my own projects, I know this might not be the perfect approach
-for all the projects out there. If you have any ideas, just
-[open an issue][issues] and tell me what you think.
-
-## Related projects
-
-Here's a list of other related projects where you can find inspiration for
-creating the best possible README for your own project:
-
-- [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-- [A list of awesome READMEs](https://github.com/matiassingers/awesome-readme)
-- [Akash Nimare's kickass README guide](https://gist.github.com/akashnimare/7b065c12d9750578de8e705fb4771d2f)
-- [Dan Bader's README template](https://github.com/dbader/readme-template)
-
-## Licensing
-
-This project is licensed under Unlicense license. This license does not require
-you to take the license with you to your project.
-
-[issues]:https://github.com/jehna/readme-best-practices/issues/new
 
